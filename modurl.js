@@ -7,7 +7,7 @@ class Moderation {
         {
           opcode: 'moderate',
           blockType: Scratch.BlockType.BOOLEAN,
-          text: 'Check for URLs with ".com" or more in [ONE]',
+          text: 'Check for URL or more in [ONE]',
           arguments: {
             ONE: {
               type: Scratch.ArgumentType.STRING,
